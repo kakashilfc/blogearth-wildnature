@@ -21,7 +21,7 @@ export default function Index({ allPosts: { edges }, preview }) {
       <Head>
         <title>Explore the world</title>
       </Head>
-      <Container>
+ 
       <main className={`${styles.main}`}>
         <div className={styles.description}>
           <p>
@@ -117,7 +117,7 @@ export default function Index({ allPosts: { edges }, preview }) {
           </a>
         </div>
       </main>
-      </Container>
+
     </Layout>
   )
 }
