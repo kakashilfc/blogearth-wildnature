@@ -22,7 +22,7 @@ export default function Index({ allPosts: { edges }, preview }) {
         <title>Explore the world</title>
       </Head>
       <Container>
-      <main className={`${styles.main} ${inter.className}`}>
+      <main className={`${styles.main}`}>
         <div className={styles.description}>
           <p>
             Get started by editing&nbsp;
