@@ -14,15 +14,6 @@ export default function PostHeader({
   return (
     <>
       <PostTitle>{title}</PostTitle>
- 
- 
-      <div className="max-w-2xl mx-auto">
- 
-        <div className="mb-6 text-lg">
-          Posted <Date dateString={date} />
-          <Categories categories={categories} />
-        </div>
-      </div>
     </>
   )
 }
