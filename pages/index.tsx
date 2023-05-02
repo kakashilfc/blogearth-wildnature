@@ -15,7 +15,7 @@ import { CMS_NAME } from '../lib/constants'
 export default function Index({ allPosts: { edges }, preview }) {
   const heroPost = edges[0]?.node
   const morePosts = edges.slice(0)
-
+  const inter = Inter({ subsets: ['latin'] })
   return (
     <Layout preview={preview}>
       <Head>
@@ -26,7 +26,7 @@ export default function Index({ allPosts: { edges }, preview }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
  
-      <main className={`${styles.main}`}>
+      <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
           <p>
             Get started by editing&nbsp;
